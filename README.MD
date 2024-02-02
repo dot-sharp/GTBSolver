@@ -1,6 +1,6 @@
-# GTBThemeSolver <a target="_blank" href="https://github.com/Fastxyz/GTBThemeSolver"><img align="left" alt="GTBThemeSolver" width="50px" src="https://i.imgur.com/otyjVKo.png"></a>
+# GTBSolver <a target="_blank" href="https://www.gtbsolver.com"><img align="left" alt="GTBSolver" width="50px" src="https://i.imgur.com/otyjVKo.png"></a>
 
-<img alt="GTBThemeSolver" src="https://i.imgur.com/Dc2Kjxu.png">
+<img alt="GTBSolver" src="https://i.imgur.com/Dc2Kjxu.png">
 
 ## ❓ What is this?
 
@@ -12,15 +12,11 @@ Try all the words in the list and you'll end up guessing what it is. Out of the 
 
 You can also click on the word to copy it to the clipboard.
 
-Keep in mind that not all words are known. If you find a word that's not on the list, please let me know by [clicking here](https://fastxyz.github.io/GTBThemeSolver/submit-words). Also, if you have any suggestions, questions, or require any assistance using this tool, feel free to contact me by [clicking here](https://fastxyz.github.io/GTBThemeSolver/contact).
+Keep in mind that not all words are known. If you find a word that's not on the list, please let me know by [clicking here](https://www.gtbsolver.com/submit-words). Also, if you have any suggestions, questions, or require any assistance using this tool, feel free to contact me by [clicking here](https://www.gtbsolver.com/contact).
 
-## 🐛 Bugs
+## 💡 Suggestions/Questions or 🐛 Bugs
 
-If you find any bugs, report them on the [issues section](https://github.com/Fastxyz/GTBThemeSolver/issues).</br>If you find any bugs and know how to solve them, or if you want to add something and you know how to add it, create a pull request on the [pull request section](https://github.com/Fastxyz/GTBThemeSolver/pulls).
-
-## 💡 Suggestions/Questions
-
-If you have any questions or want to give some suggestions, send them on the [issues section](https://github.com/Fastxyz/GTBThemeSolver/issues).
+If you have any questions or want to give some suggestions, send them on the [issues section](https://www.gtbsolver.com/contact).
 
 ## 📜 **DISCLAIMER**
 
