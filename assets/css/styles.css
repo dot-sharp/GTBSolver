@@ -581,6 +581,18 @@ img{
 	color: var(--first-color);
 }
 
+.list__item__top {
+	margin-bottom: .5rem;
+}
+
+.list__item__middle {
+	margin-bottom: .5rem;
+}
+
+.list__item__bottom {
+	margin-bottom: .5rem;
+}
+
 /*==================== FOOTER ====================*/
 .footer{
 	padding-top: 2rem;
