@@ -1,6 +1,6 @@
 # GTBSolver <a target="_blank" href="https://www.gtbsolver.com"><img align="left" alt="GTBSolver" width="50px" src="https://i.imgur.com/otyjVKo.png"></a>
 
-<img alt="GTBSolver" src="https://i.imgur.com/Dc2Kjxu.png">
+<img alt="GTBSolver" src="https://i.imgur.com/ZeZq5L0.png">
 
 ## ❓ What is this?
 
