@@ -875,3 +875,26 @@ img{
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media screen and (min-width : 1224px) {
+	.footer__container{
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.footer__bg{
+		padding: 3rem 0 3.5rem;
+	}
+
+	.footer__links{
+		flex-direction: row;
+		column-gap: 2rem;
+	}
+
+	.footer__socials{
+		justify-self: flex-end;
+	}
+
+	.footer__copy{
+		margin-top: 4.5rem;
+	}
+}
