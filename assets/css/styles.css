@@ -587,7 +587,7 @@ img{
 /*==================== FOOTER ====================*/
 .footer{
 	padding-top: 2rem;
-	flex-grow: 0;
+	flex-shrink: 0;
 }
 
 .footer__container{
