@@ -363,6 +363,10 @@ img{
 	text-align: center;
 }
 
+.padding-bottom__desktop__home {
+	padding-bottom:5.8rem;
+}
+
 /*==================== BUTTONS ====================*/
 
 .button{
@@ -712,6 +716,20 @@ img{
 
 	.help__modal{
 		padding: 0 .5rem;
+	}
+
+	[type=text] {
+	width: 300px;
+	padding: .5em;
+	display: block;
+	margin: 0 auto;
+	font-family: 'MinecraftiaRegular'; 
+	font-weight: normal; 
+	font-style: normal; 
+	}
+	
+	.padding-bottom__phone__home {
+		padding-bottom: 4.25rem;
 	}
 }
 
