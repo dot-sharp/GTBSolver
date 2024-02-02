@@ -720,12 +720,6 @@ img{
 
 	[type=text] {
 	width: 300px;
-	padding: .5em;
-	display: block;
-	margin: 0 auto;
-	font-family: 'MinecraftiaRegular'; 
-	font-weight: normal; 
-	font-style: normal; 
 	}
 	
 	.padding-bottom__phone__home {
@@ -733,6 +727,16 @@ img{
 	}
 }
 
+@media screen and (max-width: 351px) {
+	[type=text] {
+	width: 300px;
+	}
+	
+	.padding-bottom__phone__home {
+		padding-bottom: 4.25rem;
+	}
+}
+	
 /* For medium devices */
 @media screen and (min-width: 568px){
 	.error404__content,
