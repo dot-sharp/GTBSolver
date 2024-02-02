@@ -581,9 +581,14 @@ img{
 	color: var(--first-color);
 }
 
-.list__item__top, .list__item__middle, .list__item__bottom {
-	margin-bottom: 1.5rem;
+.list__item__top,
+.list__item__middle {
+	margin-bottom: 3.5rem;
 }
+
+ .list__item__bottom {
+	 margin-bottom: 7.5rem;
+ }
 
 /*==================== FOOTER ====================*/
 .footer{
