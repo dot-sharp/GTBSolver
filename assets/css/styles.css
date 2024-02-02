@@ -318,7 +318,6 @@ img{
 	grid-template-columns: .5fr 3fr;
 	padding-top: 3.5rem;
 	align-items: center;
-	flex: 1 0 auto;
 }
 
 .home__data{
@@ -499,7 +498,6 @@ img{
 	background-color: var(--input-color);
 	border-radius: .5rem;
 	padding: .75rem 1rem .25rem;
-	flex: 1 0 auto;
 }
 
 .contact__label{
@@ -556,7 +554,6 @@ img{
 	background-color: var(--input-color);
 	border-radius: .5rem;
 	padding: .75rem 1rem .25rem;
-	flex: 1 0 auto;
 }
 
 .submit__label{
@@ -801,13 +798,11 @@ img{
 	.error404__content{
 		padding-top: 5.5rem;
 		column-gap: 2rem;
-		flex: 1 0 auto;
 	}
 
 	.home__content{
 		padding-top: 5.5rem;
 		column-gap: 2rem;
-		flex: 1 0 auto;
 	}
 
 	.help__container{
@@ -832,7 +827,6 @@ img{
 
 	.help__modal-content{
 		width: 450px;
-		flex: 1 0 auto;
 	}
 
 	.footer__container{
