@@ -624,7 +624,6 @@ img{
 	font-size: var(--smaller-font-size);
 	text-align: center;
 	color: var(--footer-text);
-	margin-top: var(--mb-3);
 }
 
 .footer__title,
@@ -846,9 +845,6 @@ img{
 		justify-self: flex-end;
 	}
 
-	.footer__copy{
-		margin-top: 4.5rem;
-	}
 }
 
 /* For large devices */
