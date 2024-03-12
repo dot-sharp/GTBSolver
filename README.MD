@@ -4,13 +4,11 @@
 
 ## ❓ What is this?
 
-Guess The Build Theme Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.
+Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.
 
 Simply enter the hints in the textboxes as they appear in the game. Words that matches the hints will be automatically shown in the results section.
 
 Try all the words in the list and you'll end up guessing what it is. Out of the list, you should guess which one looks like the build first.
-
-You can also click on the word to copy it to the clipboard.
 
 Keep in mind that not all words are known. If you find a word that's not on the list, please let me know by [clicking here](https://www.gtbsolver.com/submit-words). Also, if you have any suggestions, questions, or require any assistance using this tool, feel free to contact me by [clicking here](https://www.gtbsolver.com/contact).
 
