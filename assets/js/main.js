@@ -166,5 +166,7 @@ input.addEventListener("input", function(event){
 function contactLinkEnter() {
 	document.getElementById("contact__icon").style.setProperty('color', '#8fa2ff');
 };
+
 function contactLinkLeave() {
 	document.getElementById("contact__icon").style.setProperty('color', '#576ee0');
+};
