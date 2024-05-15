@@ -527,9 +527,11 @@ img{
 
 .contact_link:hover{
 	color: var(--title-color);
-
 }
-	
+
+.contact__icon:hover{
+	color: var(--contact-icon);
+}	
 
 /*==================== SUBMIT WORDS ====================*/
 .submit__container{
