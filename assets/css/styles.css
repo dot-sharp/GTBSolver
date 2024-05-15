@@ -524,11 +524,11 @@ img{
 	color: var(--text-color-light);
 }
 
-.contact_link:hover,
-.contact__icon{
+.contact_link:hover{
 	color: var(--title-color);
 
 }
+	
 
 /*==================== SUBMIT WORDS ====================*/
 .submit__container{
