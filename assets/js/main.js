@@ -90,45 +90,55 @@ themeButton.addEventListener('click', () => {
 // Email
 function emailEnter() {
 	document.getElementById("email__icon").style.setProperty('color', '#8fa2ff');
+	document.getElementById("emai__link").style.setProperty('color', '#75798a');
 };
 function emailLeave() {
 	document.getElementById("email__icon").style.setProperty('color', '#576ee0');
+	document.getElementById("emai__link").style.setProperty('color', '#232429');
 };
 
 
 // LinkedIn
 function linkedinEnter() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#8fa2ff');
+	document.getElementById("linkedin__link").style.setProperty('color', '#75798a');
 };
 function linkedinLeave() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#576ee0');
+	document.getElementById("linkedin__link").style.setProperty('color', '#232429');
 };
 
 
 // Github
 function githubEnter() {
 	document.getElementById("github__icon").style.setProperty('color', '#8fa2ff');
+	document.getElementById("github__link").style.setProperty('color', '#75798a');
 };
 function githubLeave() {
 	document.getElementById("github__icon").style.setProperty('color', '#576ee0');
+	document.getElementById("github__link").style.setProperty('color', '#232429');
 };
 
 
 // YouTube
 function youtubeEnter() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#8fa2ff');
+	document.getElementById("youtube__link").style.setProperty('color', '#75798a');
 };
 function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
+	document.getElementById("youtube__link").style.setProperty('color', '#232429');
 };
 
 
 // Instagram
 function instagramEnter() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#8fa2ff');
+	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
 };
 function instagramLeave() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
+	document.getElementById("instagram__link").style.setProperty('color', '#232429');
 };
 
 
