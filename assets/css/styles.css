@@ -24,7 +24,6 @@
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 	--scrollup-color: hsl(var(--hue-color), 69%, 61%);
 	--footer-text: hsl(var(--hue-color), 8%, 85%);
-	--contact-icon: hsl(var(--hue-color), 100%, 78%);
 
 	/*========== Font and typography ==========*/
 	--body-font: 'Poppins', sans-serif;
@@ -527,10 +526,6 @@ img{
 
 .contact_link:hover{
 	color: var(--title-color);
-}
-
-.contact__icon:hover{
-	color: var(--contact-icon);
 }	
 
 /*==================== SUBMIT WORDS ====================*/
