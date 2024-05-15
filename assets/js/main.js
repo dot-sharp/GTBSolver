@@ -164,5 +164,5 @@ input.addEventListener("input", function(event){
 });
 
 function contactLinkHover() {
-	document.getElementByClassName("contact__icon").styl.esetProperty('--contact-icon');
+	document.getElementById("contact__icon").style.setProperty('--contact-icon');
 };
