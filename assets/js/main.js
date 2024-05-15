@@ -163,6 +163,8 @@ input.addEventListener("input", function(event){
 	count.innerHTML = event.target.value.length;
 });
 
-function contactLinkHover() {
+function contactLinkEnter() {
 	document.getElementById("contact__icon").style.setProperty('color', '#8fa2ff');
 };
+function contactLinkLeave() {
+	document.getElementById("contact__icon").style.setProperty('color', '#576ee0');
