@@ -524,8 +524,10 @@ img{
 	color: var(--text-color-light);
 }
 
-.contact_link:hover{
-	color: var(--title-color); 
+.contact_link:hover,
+.contact__icon{
+	color: var(--title-color);
+
 }
 
 /*==================== SUBMIT WORDS ====================*/
