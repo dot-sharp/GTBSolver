@@ -163,10 +163,49 @@ input.addEventListener("input", function(event){
 	count.innerHTML = event.target.value.length;
 });
 
-function contactLinkEnter() {
-	document.getElementById("contact__icon").style.setProperty('color', '#8fa2ff');
+
+// Email
+function emailEnter() {
+	document.getElementById("email__icon").style.setProperty('color', '#8fa2ff');
+};
+function emailLeave() {
+	document.getElementById("email__icon").style.setProperty('color', '#576ee0');
 };
 
-function contactLinkLeave() {
-	document.getElementById("contact__icon").style.setProperty('color', '#576ee0');
+
+// LinkedIn
+function linkedinEnter() {
+	document.getElementById("linkedin__icon").style.setProperty('color', '#8fa2ff');
 };
+function linkedinLeave() {
+	document.getElementById("linkedin__icon").style.setProperty('color', '#576ee0');
+};
+
+
+// Github
+function githubEnter() {
+	document.getElementById("github__icon").style.setProperty('color', '#8fa2ff');
+};
+function githubLeave() {
+	document.getElementById("github__icon").style.setProperty('color', '#576ee0');
+};
+
+
+// YouTube
+function youtubeEnter() {
+	document.getElementById("youtube__icon").style.setProperty('color', '#8fa2ff');
+};
+function youtubeLeave() {
+	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
+};
+
+
+// Instagram
+function instagramEnter() {
+	document.getElementById("instagram__icon").style.setProperty('color', '#8fa2ff');
+};
+function instagramLeave() {
+	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
+};
+
+
