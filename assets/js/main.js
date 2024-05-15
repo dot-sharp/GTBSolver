@@ -94,7 +94,7 @@ function emailEnter() {
 };
 function emailLeave() {
 	document.getElementById("email__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("emai__link").style.setProperty('color', '#292327');
+	document.getElementById("emai__link").style.setProperty('color', '#75798a');
 };
 
 
@@ -105,7 +105,7 @@ function linkedinEnter() {
 };
 function linkedinLeave() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("linkedin__link").style.setProperty('color', '#292327');
+	document.getElementById("linkedin__link").style.setProperty('color', '#75798a');
 };
 
 
@@ -116,7 +116,7 @@ function githubEnter() {
 };
 function githubLeave() {
 	document.getElementById("github__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("github__link").style.setProperty('color', '#292327');
+	document.getElementById("github__link").style.setProperty('color', '#75798a');
 };
 
 
@@ -127,7 +127,7 @@ function youtubeEnter() {
 };
 function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("youtube__link").style.setProperty('color', '#292327');
+	document.getElementById("youtube__link").style.setProperty('color', '#75798a');
 };
 
 
@@ -138,7 +138,7 @@ function instagramEnter() {
 };
 function instagramLeave() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("instagram__link").style.setProperty('color', '#292327');
+	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
 };
 
 
