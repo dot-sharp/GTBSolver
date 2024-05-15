@@ -90,7 +90,7 @@ themeButton.addEventListener('click', () => {
 // Email
 function emailEnter() {
 	document.getElementById("email__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("emai__link").style.setProperty('color', '#75798a');
+	document.getElementById("emai__link").style.setProperty('color', '#f1f2f3');
 };
 function emailLeave() {
 	document.getElementById("email__icon").style.setProperty('color', '#576ee0');
@@ -101,7 +101,7 @@ function emailLeave() {
 // LinkedIn
 function linkedinEnter() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("linkedin__link").style.setProperty('color', '#75798a');
+	document.getElementById("linkedin__link").style.setProperty('color', '#f1f2f3');
 };
 function linkedinLeave() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#576ee0');
@@ -112,7 +112,7 @@ function linkedinLeave() {
 // Github
 function githubEnter() {
 	document.getElementById("github__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("github__link").style.setProperty('color', '#75798a');
+	document.getElementById("github__link").style.setProperty('color', '#f1f2f3');
 };
 function githubLeave() {
 	document.getElementById("github__icon").style.setProperty('color', '#576ee0');
@@ -123,7 +123,7 @@ function githubLeave() {
 // YouTube
 function youtubeEnter() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("youtube__link").style.setProperty('color', '#75798a');
+	document.getElementById("youtube__link").style.setProperty('color', '#f1f2f3');
 };
 function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
@@ -134,7 +134,7 @@ function youtubeLeave() {
 // Instagram
 function instagramEnter() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
+	document.getElementById("instagram__link").style.setProperty('color', '#f1f2f3');
 };
 function instagramLeave() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
