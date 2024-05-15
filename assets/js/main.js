@@ -162,3 +162,7 @@ var input = document.getElementById("input");
 input.addEventListener("input", function(event){
 	count.innerHTML = event.target.value.length;
 });
+
+function contactLinkHover() {
+	document.getElementByClassName("contact__icon").style = hsl(230deg 100% 78.27%);
+}
