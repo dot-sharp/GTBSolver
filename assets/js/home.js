@@ -81,6 +81,8 @@ $(document).ready(function () {
 					
 					if (i == searchWord.length) {
 						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="#form" onclick="copyResult()">' + value + '</a>' + '<br>');
+						var data = [new ClipboardItem({["text/html"]: new Blob([`<div id='contentToCopy'>...</div>`], {type: "text/html"})})];
+						addEventListener("click", async () => { await navigator.clipboard.write(data) }, { once: true});
 					};
 				};
 			};
