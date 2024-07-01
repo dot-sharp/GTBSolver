@@ -12,6 +12,7 @@
 	/* HSL color mode */
 	--first-color: hsl(var(--hue-color), 69%, 61%);
 	--first-color-second: hsl(var(--hue-color), 69%, 61%);
+	--first-color-second-transparant: hsla(var(--hue-color), 69%, 61%, 0);
 	--first-color-alt: hsl(var(--hue-color), 57%, 53%);
 	--first-color-lighter: hsl(var(--hue-color), 92%, 85%);
 	--title-color: hsl(var(--hue-color), 8%, 15%);
@@ -610,7 +611,7 @@ img{
 }
 
 .footer__bg{
-	background-color: linear-gradient(0deg, rgba(14,16,27,1) 10%, rgba(14,16,27,0) 100%);
+	background: linear-gradient(0deg, var(--first-color-second), var(--first-color-second-transparant));
 	padding: 4% 0 15%;
 }
 
