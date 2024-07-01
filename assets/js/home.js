@@ -39,17 +39,6 @@ $(document).ready(function () {
 			for (var index = 0; index < wordsArray.length; index++) {
 				var value = wordsArray[index];
 				var eachWord = value.toLowerCase();
-
-				/* function copyResult() {
-					navigator.clipboard.writeText(value).then(
-						function(){
-						    console.log("copied"); // success
-						  })
-						.catch(
-						   function() {
-						      console.log("failed"); // error
-							});
-				}; */
 			
 				if (regex.test(eachWord)) {
 					var i;
@@ -72,7 +61,7 @@ $(document).ready(function () {
 						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyButton" href="#form">' + value + '</a>' + '<br>');
 
 						document.getElementById("copyButton").addEventListener("click", function() {
-  						var copyText = value
+  						var copyText = value;
 						navigator.clipboard.writeText(copyText)
 						.then(function() {
 							alert("Text copied to clipboard: " + copyText);
