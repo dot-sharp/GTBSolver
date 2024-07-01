@@ -20,19 +20,19 @@ modalCloses.forEach(modalClose => {
 	});
 });
 
+function CopyToClipboard(id) {
+	var r = document.createRange();
+	r.selectNode(document.getElementById(copyword));
+	window.getSelection().removeAllRanges();
+	window.getSelection().addRange(r);
+	document.execCommand('copy');
+	window.getSelection().removeAllRanges();
+}
+
 
 // Regex Search
 $(document).ready(function () {
 	var wordsArray = wordsData;
-	
-	function CopyToClipboard(id) {
-		var r = document.createRange();
-		r.selectNode(document.getElementById(id));
-		window.getSelection().removeAllRanges();
-		window.getSelection().addRange(r);
-		document.execCommand('copy');
-		window.getSelection().removeAllRanges();
-	}
 	
 	$("[name='theme']").keyup(function () {
 		var words = $(this).val().replace(/_/g, '.');
@@ -67,7 +67,7 @@ $(document).ready(function () {
 					};
 
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="a_word" href="#form" onclick="CopyToClipboard("a_word");return false;>' + value + '</a>' + '<br>');
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyword" href="#form" onclick="CopyToClipboard();return false;>' + value + '</a>' + '<br>');
 					};
 				};
 			};
