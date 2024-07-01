@@ -733,9 +733,9 @@ img{
 	}
 }
 
-@media screen and (min-width: 351px) {
+@media screen and (max-width: 432px) {
 	[type=text] {
-	width: 300px;
+	width: 225px;
 	}
 	
 	.padding-bottom__phone__home {
@@ -882,6 +882,9 @@ img{
 		justify-self: flex-end;
 	}
 
+	[type=text] {
+	width: 300px;
+
 }
 
 /* For large devices */
@@ -901,4 +904,7 @@ img{
 	.submit__inputs{
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	[type=text] {
+	width: 350px;
 }
