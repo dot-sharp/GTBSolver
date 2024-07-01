@@ -598,6 +598,11 @@ img{
 .footer{
 	padding-top: 2rem;
 	flex-shrink: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
 }
 
 .footer__container{
@@ -606,7 +611,7 @@ img{
 
 .footer__bg{
 	background-color: var(--first-color-second);
-	padding: 2rem 0 3rem;
+	padding: 5% 0 15%;
 }
 
 .footer__title{
@@ -864,7 +869,7 @@ img{
 	}
 
 	.footer__bg{
-		padding: 3rem 0 3.5rem;
+		padding: 4% 0;
 	}
 
 	.footer__links{
