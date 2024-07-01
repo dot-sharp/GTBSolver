@@ -39,6 +39,7 @@ $(document).ready(function () {
 			for (var index = 0; index < wordsArray.length; index++) {
 				var value = wordsArray[index];
 				var eachWord = value.toLowerCase();
+				export { value };
 
 				/* function copyResult() {
 					navigator.clipboard.writeText(value).then(
