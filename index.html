@@ -30,6 +30,18 @@
 	</head>
 
 	<body>
+
+		<script>
+		function CopyToClipboard(id)
+		{
+		var r = document.createRange();
+		r.selectNode(document.getElementById(id));
+		window.getSelection().removeAllRanges();
+		window.getSelection().addRange(r);
+		document.execCommand('copy');
+		window.getSelection().removeAllRanges();
+		}
+		</script>
 		<header class="header" id="header">
 			<nav class="nav container">
 				<a href="#" class="nav__logo"><img src="./assets/img/favicon.ico"> GTBSolver</a>
@@ -155,5 +167,7 @@
 		<script src="./assets/js/swiper-bundle.min.js"></script>
 		<script src="./assets/js/main.js"></script>
 		<script src="./assets/js/home.js"></script>
+
+		
 	</body>
 </html>
