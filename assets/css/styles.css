@@ -610,7 +610,7 @@ img{
 }
 
 .footer__bg{
-	background-color: linear-gradient(180deg, var(--first-color-second), rgba(14,16,27,0) 0%);
+	background-color: linear-gradient(0deg, rgba(14,16,27,1) 10%, rgba(14,16,27,0) 100%);
 	padding: 4% 0 15%;
 }
 
