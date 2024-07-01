@@ -68,9 +68,12 @@ $(document).ready(function () {
 						};
 					};
 					
-					document.getElementById("copyButton").addEventListener("click", function() {
-  					var copyText = value
-					navigator.clipboard.writeText(copyText)
+					if (i == searchWord.length) {
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyButton" href="#form">' + value + '</a>' + '<br>');
+
+						document.getElementById("copyButton").addEventListener("click", function() {
+  						var copyText = value
+						navigator.clipboard.writeText(copyText)
 						.then(function() {
 							alert("Text copied to clipboard: " + copyText);
 						})
@@ -78,9 +81,6 @@ $(document).ready(function () {
 							alert("Failed to copy text: " + error);
 						});
 					});
-					
-					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyButton" href="#form">' + value + '</a>' + '<br>');
 					};
 				};
 			};
