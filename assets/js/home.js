@@ -39,7 +39,6 @@ $(document).ready(function () {
 			for (var index = 0; index < wordsArray.length; index++) {
 				var value = wordsArray[index];
 				var eachWord = value.toLowerCase();
-				export { value };
 
 				/* function copyResult() {
 					navigator.clipboard.writeText(value).then(
@@ -68,7 +67,17 @@ $(document).ready(function () {
 							break;
 						};
 					};
-
+					function copyResult() {
+						navigator.clipboard.writeText(value).then(
+						function(){
+						console.log("copied"); // success
+					   })
+						.catch(
+						function() {
+						console.log("failed"); // error
+					   });
+					};
+					
 					if (i == searchWord.length) {
 						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="#form" onclick="copyResult()">' + value + '</a>' + '<br>');
 					};
