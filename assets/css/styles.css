@@ -597,9 +597,10 @@ img{
 /*==================== FOOTER ====================*/
 .footer{
 	flex-shrink: 0;
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+	right: 0;
 	left: 0;
+	bottom: 0;
 	width: 100%;
 	text-align: center;
 }
