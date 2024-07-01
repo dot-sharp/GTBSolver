@@ -725,7 +725,7 @@ img{
 	}
 
 	[type=text] {
-	width: 300px;
+	width: 225px;
 	}
 	
 	.padding-bottom__phone__home {
@@ -733,7 +733,7 @@ img{
 	}
 }
 
-@media screen and (max-width: 351px) {
+@media screen and (min-width: 351px) {
 	[type=text] {
 	width: 300px;
 	}
