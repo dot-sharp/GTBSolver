@@ -23,6 +23,7 @@
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 	--scrollup-color: hsl(var(--hue-color), 69%, 61%);
+	--footer-color: hsl(var(--hue-color), 69%, 95%);
 
 	/*========== Font and typography ==========*/
 	--body-font: 'Poppins', sans-serif;
@@ -607,7 +608,7 @@ img{
 }
 
 .footer__bg{
-	background-color: var(--first-color-second);
+	background-color: var(--footer-color);
 	padding: 4% 0 15%;
 }
 
