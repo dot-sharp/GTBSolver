@@ -67,7 +67,7 @@ $(document).ready(function () {
 					};
 
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyword" href="#form" onclick="CopyToClipboard()">' + value + '</a>' + '<br>');
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyword" href="#" onclick="CopyToClipboard(''copyword'');return false;">' + value + '</a>' + '<br>');
 					};
 				};
 			};
