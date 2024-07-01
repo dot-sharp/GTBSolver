@@ -23,7 +23,7 @@
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 	--scrollup-color: hsl(var(--hue-color), 69%, 61%);
-	--footer-color: hsl(var(--hue-color), 69%, 95%);
+	--footer-text: hsl(var(--hue-color), 8%, 85%)
 
 	/*========== Font and typography ==========*/
 	--body-font: 'Poppins', sans-serif;
@@ -83,7 +83,7 @@ body.dark-theme{
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 	--scrollup-color: hsl(var(--hue-color), 30%, 8%);
-	--footer-color: hsl(var(--hue-color), 69%, 61%);
+	--footer-text: hsl(var(--hue-color), 8%, 75%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -609,7 +609,7 @@ img{
 }
 
 .footer__bg{
-	background-color: var(--footer-color);
+	background-color: var(--first-color-second);
 	padding: 4% 0 15%;
 }
 
