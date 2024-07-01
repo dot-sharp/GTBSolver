@@ -105,7 +105,6 @@ body.dark-theme{
 
 /*==================== BASE ====================*/
 *{
-	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -113,6 +112,7 @@ body.dark-theme{
 html{
 	scroll-behavior: smooth;
 	height: 100%;
+	box-sizing: border-box;
 }
 
 body{
@@ -125,6 +125,7 @@ body{
 	flex-direction: column;
 	position: relative;
 	min-height: 100%;
+	padding-bottom: 6.74rem;
 }
 
 h1,h2,h3,h4{
