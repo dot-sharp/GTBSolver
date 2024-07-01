@@ -32,16 +32,18 @@
 	<body>
 
 		<script>
-		function CopyToClipboard(id)
-		{
-		var r = document.createRange();
-		r.selectNode(document.getElementById(id));
-		window.getSelection().removeAllRanges();
-		window.getSelection().addRange(r);
-		document.execCommand('copy');
-		window.getSelection().removeAllRanges();
-		}
+			function copyResult() {
+				navigator.clipboard.writeText(value).then(
+					function(){
+					console.log("copied"); // success
+				})
+					.catch(
+					function() {
+					console.log("failed"); // error
+				});
+			};
 		</script>
+		
 		<header class="header" id="header">
 			<nav class="nav container">
 				<a href="#" class="nav__logo"><img src="./assets/img/favicon.ico"> GTBSolver</a>
