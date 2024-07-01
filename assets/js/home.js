@@ -20,15 +20,6 @@ modalCloses.forEach(modalClose => {
 	});
 });
 
-function CopyToClipboard(id) {
-var r = document.createRange();
-r.selectNode(document.getElementById(id));
-window.getSelection().removeAllRanges();
-window.getSelection().addRange(r);
-document.execCommand('copy');
-window.getSelection().removeAllRanges();
-};
-
 
 // Regex Search
 $(document).ready(function () {
@@ -67,7 +58,7 @@ $(document).ready(function () {
 					};
 
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyword" href="#" onclick="CopyToClipboard("copyword");return false;>' + value + '</a>' + '<br>');
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyword" href="#form">' + value + '</a>' + '<br>');
 					};
 				};
 			};
