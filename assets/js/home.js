@@ -67,15 +67,16 @@ $(document).ready(function () {
 							break;
 						};
 					};
+					
 					function copyResult() {
 						navigator.clipboard.writeText(value).then(
 						function(){
 						console.log("copied"); // success
-					   })
+					})
 						.catch(
 						function() {
 						console.log("failed"); // error
-					   });
+					});
 					};
 					
 					if (i == searchWord.length) {
