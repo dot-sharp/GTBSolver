@@ -112,7 +112,6 @@ body.dark-theme{
 
 html{
 	scroll-behavior: smooth;
-	height: 100%;
 }
 
 body{
@@ -172,11 +171,6 @@ img{
 	max-width: 768px;
 	margin-left: var(--mb-1-5);
 	margin-right: var(--mb-1-5);
-}
-
-#container{
-	min-height: 100%;
-	position: relative;
 }
 
 .submit_container{
@@ -602,9 +596,10 @@ img{
 
 /*==================== FOOTER ====================*/
 .footer{
-	/* flex-shrink: 0; */
-	position: absolute;
+	flex-shrink: 0;
+	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	text-align: center;
 }
