@@ -43,13 +43,13 @@ $(document).ready(function () {
 				function copyResult() {
 					navigator.clipboard.writeText(value).then(
 						function(){
-							console.log("copied"); // success
-						})
+						    console.log("copied"); // success
+						  })
 						.catch(
-							function() {
-								console.log("failed"); // error
+						   function() {
+						      console.log("failed"); // error
 							});
-				}
+				};
 
 				if (regex.test(eachWord)) {
 					var i;
