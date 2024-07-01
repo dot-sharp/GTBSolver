@@ -40,7 +40,7 @@ $(document).ready(function () {
 				var value = wordsArray[index];
 				var eachWord = value.toLowerCase();
 
-				function copyResult() {
+				/* function copyResult() {
 					navigator.clipboard.writeText(value).then(
 						function(){
 						    console.log("copied"); // success
@@ -49,8 +49,8 @@ $(document).ready(function () {
 						   function() {
 						      console.log("failed"); // error
 							});
-				};
-
+				}; */
+			
 				if (regex.test(eachWord)) {
 					var i;
 
