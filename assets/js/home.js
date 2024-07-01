@@ -64,10 +64,10 @@ $(document).ready(function () {
   						var copyText = value;
 						navigator.clipboard.writeText(copyText)
 						.then(function() {
-							alert("Text copied to clipboard: " + copyText);
+							console.log("Text copied to clipboard: " + copyText);
 						})
 						.catch(function(error) {
-							alert("Failed to copy text: " + error);
+							console.log("Failed to copy text: " + error);
 						});
 					});
 					};
