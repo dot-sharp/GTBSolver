@@ -68,21 +68,19 @@ $(document).ready(function () {
 						};
 					};
 					
-					function copyResult() {
-						navigator.clipboard.writeText(value).then(
-						function(){
-						console.log("copied"); // success
-					})
-						.catch(
-						function() {
-						console.log("failed"); // error
+					document.getElementById("copyButton").addEventListener("click", function() {
+  					var copyText = value
+					navigator.clipboard.writeText(copyText)
+						.then(function() {
+							alert("Text copied to clipboard: " + copyText);
+						})
+						.catch(function(error) {
+							alert("Failed to copy text: " + error);
+						});
 					});
-					};
 					
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="wordSelected" href="#form">' + value + '</a>' + '<br>');
-						var data = [new ClipboardItem({["text/html"]: new Blob([`<a id='wordSelected'> ... </a>`], {type: "text/html"})})];
-						addEventListener("click", async () => { await navigator.clipboard.write(data) }, { once: true});
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" id="copyButton" href="#form">' + value + '</a>' + '<br>');
 					};
 				};
 			};
