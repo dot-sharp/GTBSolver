@@ -112,6 +112,7 @@ body.dark-theme{
 
 html{
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 body{
@@ -122,10 +123,8 @@ body{
 	color: var(--text-color);
 	display: flex;
 	flex-direction: column;
-}
-
-body, body {
-	height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 
 h1,h2,h3,h4{
