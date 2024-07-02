@@ -144,6 +144,7 @@ function instagramLeave() {
 
 // Dynamic Favicon
 
+/*
 $(window).focus(function() {
 	var link = document.createElement('link');
 	   link.type = 'image/x-icon';
@@ -159,3 +160,4 @@ $(window).blur(function() {
 	link.href = 'https://www.gtbsolver.com/assets/img/favicon2.ico';
 	document.getElementsByTagName('head')[0].appendChild(link);
 });
+*/
