@@ -575,6 +575,7 @@ img{
 	border: none;
 	outline: none;
 	padding: .25rem .5rem .5rem 0;
+	resize: vertical;
 }
 
 /*==================== FORM ====================*/
