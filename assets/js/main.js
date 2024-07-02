@@ -140,5 +140,3 @@ function instagramLeave() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
 	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
 };
-
-
