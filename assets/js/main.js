@@ -148,7 +148,7 @@ $(window).focus(function() {
 	var link = document.createElement('link');
 	   link.type = 'image/x-icon';
 	link.rel = 'shortcut icon';
-	link.href = 'http://www.gtbsolver.com/favicon1.ico';
+	link.href = 'https://www.gtbsolver.com/favicon1.ico';
 	document.getElementsByTagName('head')[0].appendChild(link);
 });
 
@@ -156,6 +156,6 @@ $(window).blur(function() {
 	var link = document.createElement('link');
 	link.type = 'image/x-icon';
 	link.rel = 'shortcut icon';
-	link.href = 'http://www.gtbsolver.com/favicon2.ico';
+	link.href = 'https://www.gtbsolver.com/favicon2.ico';
 	document.getElementsByTagName('head')[0].appendChild(link);
 });
