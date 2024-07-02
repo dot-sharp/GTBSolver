@@ -140,3 +140,22 @@ function instagramLeave() {
 	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
 	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
 };
+
+
+// Dynamic Favicon
+
+$(window).focus(function() {
+	var link = document.createElement('link');
+	   link.type = 'image/x-icon';
+	link.rel = 'shortcut icon';
+	link.href = 'http://www.gtbsolver.com/favicon1.ico';
+	document.getElementsByTagName('head')[0].appendChild(link);
+});
+
+$(window).blur(function() {
+	var link = document.createElement('link');
+	link.type = 'image/x-icon';
+	link.rel = 'shortcut icon';
+	link.href = 'http://www.gtbsolver.com/favicon2.ico';
+	document.getElementsByTagName('head')[0].appendChild(link);
+});
