@@ -579,8 +579,8 @@ img{
 }
 
 .submit__text{
-	min-height: 4rem;
-	max-height: 6.65rem;
+	min-height: 3rem;
+	max-height: 10rem;
 }
 
 /*==================== FORM ====================*/
