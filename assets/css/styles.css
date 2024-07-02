@@ -374,7 +374,7 @@ img{
 	display: inline-block;
 	background-color: var(--first-color);
 	color: #FFF;
-	padding: 1rem;
+	padding: .65rem;
 	border-radius: .5rem;
 	font-weight: var(--font-medium);
 }
@@ -890,7 +890,7 @@ img{
 
 	[type=text] {
 	width: 300px;
-
+	}
 }
 
 /* For large devices */
@@ -913,4 +913,5 @@ img{
 
 	[type=text] {
 	width: 350px;
+	}	
 }
