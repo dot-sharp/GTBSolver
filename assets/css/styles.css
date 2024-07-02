@@ -578,6 +578,11 @@ img{
 	resize: vertical;
 }
 
+.submit__text{
+	min-height: 4rem;
+	max-height: 6.65rem;
+}
+
 /*==================== FORM ====================*/
 .a_word{
 	color: var(--title-color);
