@@ -579,7 +579,8 @@ img{
 }
 
 .submit__text{
-	min-height: 3rem;
+	height: 3rem;
+	/* min-height: 3rem;*/
 	max-height: 10rem;
 }
 
