@@ -242,10 +242,6 @@ img{
 	gap: 2rem;
 }
 
-.nav__list-home{
-	grid-template-columns: repeat(2, 2fr);
-	gap: 2rem;
-}
 .nav__link{
 	display: flex;
 	flex-direction: column;
