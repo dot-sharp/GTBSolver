@@ -207,19 +207,7 @@ function youtubeLeave() {
 };
 
 
-// Instagram
-function instagramEnter() {
-	document.getElementById("instagram__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("instagram__link").style.setProperty('color', '#f1f2f3');
-};
-function instagramLeave() {
-	document.getElementById("instagram__icon").style.setProperty('color', '#576ee0');
-	document.getElementById("instagram__link").style.setProperty('color', '#75798a');
-};
-
-
-// Dynamic Favicon
-
+// Dynamic Favicon (for future update)
 /*
 $(window).focus(function() {
 	var link = document.createElement('link');
