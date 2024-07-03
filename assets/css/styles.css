@@ -379,7 +379,7 @@ img{
 	display: inline-block;
 	background-color: var(--first-color);
 	color: #FFF;
-	padding: .65rem;
+	padding: .75rem;
 	border-radius: .5rem;
 	font-weight: var(--font-medium);
 }
