@@ -146,18 +146,7 @@ $(document).ready(function () {
 					};
 					
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Select to copy to clipboard">' + '<a class="a_word" id="copyButton" href="#form">' + value + '</a>' + '<br>');
-
-						document.getElementById("copyButton").addEventListener("click", function() {
-  						var copyText = document.getElementById("copyText").value;
-						navigator.clipboard.writeText(copyText)
-						.then(function() {
-							console.log("Text copied to clipboard: " + copyText);
-						})
-						.catch(function(error) {
-							console.log("Failed to copy text: " + error);
-						});
-					});
+						$("#result").append('<p title="Select to copy to clipboard">' + '<a class="a_word" href="#form">' + value + '</a>' + '<br>');
 					};
 				};
 			};
