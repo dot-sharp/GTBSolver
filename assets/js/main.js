@@ -133,18 +133,7 @@ $(document).ready(function () {
 			console.log(error);
 		};
 	});
-
-	
-	$("#result a").on("click", function() {
-		var $temp = $("<input>");
-		$("body").append($temp);
-		$temp.val($(this).text()).select();
-		document.execCommand('copy');
-		$temp.remove();
-	});
 });
-
-
 
 var count = document.getElementById("count");
 var input = document.getElementById("input");
