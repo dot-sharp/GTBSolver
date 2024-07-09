@@ -14,17 +14,6 @@ if (navClose) {
 	});
 };
 
-$(document).ready(function() {
-$("#result a").on("click", function() {
-
-	var $temp = $("<input>");
-	$("body").append($temp);
-	$temp.val($(this).text()).select();
-	document.execCommand("copy");
-	$temp.remove();
-});
-});
-
 const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
@@ -165,6 +154,16 @@ $(document).ready(function () {
 		} catch (error) {
 			console.log(error);
 		};
+	});
+
+	$(document).ready(function() {
+		$("#result a").on("click", function() {
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val($(this).text()).select();
+			document.execCommand("copy");
+			$temp.remove();
+		});
 	});
 });
 
