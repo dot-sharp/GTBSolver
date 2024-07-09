@@ -142,14 +142,5 @@
 		<!-- Don't mind these -->
 		<script src="./assets/js/swiper-bundle.min.js"></script>
 		<script src="./assets/js/main.js"></script>
-		<script>
-			$("#result a").on("click", function() {
-				var $temp = $("<input>");
-				$("body").append($temp);
-				$temp.val($(this).text()).select();
-				document.execCommand('copy');
-				$temp.remove();
-			});
-		</script>
 	</body>
 </html>

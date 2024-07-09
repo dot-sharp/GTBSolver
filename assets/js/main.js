@@ -124,7 +124,16 @@ $(document).ready(function () {
 					};
 					
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="/>' + value + '</a>' + '<br>');	
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="/>' + value + '</a>' + '<br>');
+
+						
+						$("#result a").on("click", function() {
+							var $temp = $("<input>");
+							$("body").append($temp);
+							$temp.val($(this).text()).select();
+							document.execCommand('copy');
+							$temp.remove();
+						});	
 					};
 
 				};
