@@ -134,14 +134,13 @@ $(document).ready(function () {
 		};
 	});
 
-	$(document).ready(function() {
-		$("#result a").on("click", function() {
-			var $temp = $("<input>");
-			$("body").append($temp);
-			$temp.val($(this).text()).select();
-			document.execCommand("copy");
-			$temp.remove();
-		});
+	
+	$("#result a").on("click", function() {
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($(this).text()).select();
+		document.execCommand("copy");
+		$temp.remove();
 	});
 });
 
