@@ -1,3 +1,4 @@
+// words updated Jul 6, 2023
 var wordsData = [
 	"Abandoned Mansion",
 	"Abonded Mansion",
