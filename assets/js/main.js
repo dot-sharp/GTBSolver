@@ -139,7 +139,7 @@ $(document).ready(function () {
 		var $temp = $("<input>");
 		$("body").append($temp);
 		$temp.val($(this).text()).select();
-		document.execCommand("copy");
+		document.execCommand('copy');
 		$temp.remove();
 	});
 });
