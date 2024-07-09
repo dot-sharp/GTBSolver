@@ -23,28 +23,6 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-const modalViews = document.querySelectorAll('.help__modal');
-const modalBtns = document.querySelectorAll('.help__button');
-const modalCloses = document.querySelectorAll('.help__modal-close');
-
-let modal = function(modalClick) {
-	modalViews[modalClick].classList.add('active-modal');
-};
-
-modalBtns.forEach((modalBtn, i) => {
-	modalBtn.addEventListener('click', () => {
-		modal(i);
-	});
-});
-
-modalCloses.forEach(modalClose => {
-	modalClose.addEventListener('click', () => {
-		modalViews.forEach(modalView => {
-			modalView.classList.remove('active-modal');
-		});
-	});
-});
-
 const sections = document.querySelectorAll('section[id]');
 
 function scrollActive() {
