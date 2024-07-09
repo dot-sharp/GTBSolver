@@ -124,7 +124,7 @@ $(document).ready(function () {
 					};
 					
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Select to copy to clipboard">' + '<a class="a_word" href="#form">' + value + '</a>' + '<br>');	
+						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word">' + value + '</a>' + '<br>');	
 					};
 
 				};
