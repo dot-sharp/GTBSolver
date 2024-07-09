@@ -148,12 +148,7 @@ $(document).ready(function () {
 					if (i == searchWord.length) {
 						$("#result").append('<p title="Select to copy to clipboard">' + '<a class="a_word" href="#form">' + value + '</a>' + '<br>');
 
-						$("#result a").on("click", function() {
-							var temp = $("<input>");
-							$("body").append(temp);
-							temp.val($(this).text()).select();
-							temp.remove();
-						})
+						
 					};
 
 				};
@@ -163,6 +158,13 @@ $(document).ready(function () {
 		};
 	});
 });
+
+$("#result a").on("click", function() {
+	var temp = $("<input>");
+	$("body").append(temp);
+	temp.val($(this).text()).select();
+	temp.remove();
+})
 
 var count = document.getElementById("count");
 var input = document.getElementById("input");
