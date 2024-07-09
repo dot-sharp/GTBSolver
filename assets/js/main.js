@@ -163,8 +163,10 @@ $("#result a").on("click", function() {
 	var temp = $("<input>");
 	$("body").append(temp);
 	temp.val($(this).text()).select();
+
+	console.log(temp);
 	temp.remove();
-})
+});
 
 var count = document.getElementById("count");
 var input = document.getElementById("input");
