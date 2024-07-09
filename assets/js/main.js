@@ -15,12 +15,12 @@ if (navClose) {
 };
 
 $("#result a").on("click", function() {
-	var temp = $("<input>");
-	$("body").append(temp);
-	temp.val($(this).text()).select();
 
-	console.log(temp);
-	temp.remove();
+	var $temp = $("<input>");
+	$("body").append($temp);
+	$temp.val($(this).text()).select();
+	document.execCommand("copy");
+	$temp.remove();
 });
 
 const navLink = document.querySelectorAll('.nav__link');
