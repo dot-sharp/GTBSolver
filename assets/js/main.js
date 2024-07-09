@@ -1,3 +1,4 @@
+// Mobile nav
 const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
@@ -32,12 +33,6 @@ function scrollActive() {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id');
-
-        /* if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
-        } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link');
-        }; */
     });
 }; 
 
@@ -65,6 +60,7 @@ function scrollUp() {
 
 window.addEventListener('scroll', scrollUp);
 
+// Dark and light mode
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
 const iconTheme = 'uil-sun';
@@ -128,11 +124,11 @@ $(document).ready(function () {
 
 						
 						$("#result a").on("click", function() {
-							var $temp = $("<input>");
-							$("body").append($temp);
-							$temp.val($(this).text()).select();
+							var $copyWord = $("<input>");
+							$("body").append($copyWord);
+							$copyWord.val($(this).text()).select();
 							document.execCommand('copy');
-							$temp.remove();
+							$copyWord.remove();
 						});	
 					};
 
@@ -147,6 +143,7 @@ $(document).ready(function () {
 var count = document.getElementById("count");
 var input = document.getElementById("input");
 
+// Check to see if the input Id is on the active page
 if(input) {
     input.addEventListener("input", function(event){
   	count.innerHTML = event.target.value.length;
