@@ -159,9 +159,11 @@ $(document).ready(function () {
 var count = document.getElementById("count");
 var input = document.getElementById("input");
 
-input.addEventListener("input", function(event){
-	count.innerHTML = event.target.value.length;
-});
+if(input) {
+    input.addEventListener("input", function(event){
+  	count.innerHTML = event.target.value.length;
+  });
+}
 
 // Email
 function emailEnter() {
