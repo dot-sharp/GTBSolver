@@ -1,16 +1,16 @@
 {
-	"name": "GTBThemeSolver",
-	"short_name": "GTBThemeSolver",
-	"description": "Guess The Build Theme Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.",
+	"name": "Guess The Build Solver",
+	"short_name": "GTBSolver",
+	"description": "Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.",
 	"start_url": "index.html",
-	"theme_color": "#6E57E0",
+	"theme_color": "#576EE0",
 	"background_color": "#FBFBFE",
 	"orientation": "any",
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "assets/img/favicon.ico",
-			"sizes": "16x16",
+			"src": "assets/img/favicon1.ico",
+			"sizes": "32x32",
 			"type": "image/x-icon"
 		}
 	],
