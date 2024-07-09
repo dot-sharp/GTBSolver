@@ -56,11 +56,11 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDMZ62VBZK"></script>
 		<script>
-  		  window.dataLayer = window.dataLayer || [];
-  		  function gtag(){dataLayer.push(arguments);}
-  		  gtag('js', new Date());
-
-  		  gtag('config', 'G-NDMZ62VBZK');
+		 // Goofle analytics script
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-NDMZ62VBZK');
 		</script>
 	</head>
 	<body>
@@ -70,26 +70,30 @@
 				<div class="nav__menu" id="nav-menu">
 					<ul class="nav__list nav__grid">
 						<li class="nav__item">
+							<!-- Home page -->
 							<a href="https://www.gtbsolver.com" class="nav__link">
 								<i class="uil uil-estate nav__icon"></i> Home
 							</a>
 						</li>
 						<li class="nav__item">
+							<!-- Submit words page -->
 							<a href="https://www.gtbsolver.com/submit-words" class="nav__link">
 								<i class="uil uil-envelope-upload nav__icon"></i> Submit Words
 							</a>
 						</li>
 						<li class="nav__item">
+							<!-- Contact page -->
 							<a href="https://www.gtbsolver.com/contact" class="nav__link active-link">
 								<i class="uil uil-message nav__icon"></i> Contact
 							</a>
 						</li>
 					</ul>
+					<!-- Mobile nav close button -->
 					<i class="uil uil-times nav__close" id="nav-close"></i>
 				</div>
 				<div class="nav__btns">
+					<!-- Dark / Light mode button -->
 					<i class="uil uil-moon change-theme" id="theme-button"></i>
-
 					<div class="nav__toggle" id="nav-toggle">
 						<i class="uil uil-apps"></i>
 					</div>
@@ -103,6 +107,7 @@
 				
 				<div class="contact__container container grid">
 					<div>
+						<!-- Mail redirect -->
 						<div class="contact__information">
 							<a onmouseenter="emailEnter()" onmouseleave="emailLeave()" href="mailto:Info@CasparLandman.nl"><i onmouseenter="emailEnter()" onmouseleave="emailLeave()" class="uil uil-envelope contact__icon" id="email__icon"></i></a>
 							<div>
@@ -110,6 +115,7 @@
 								<span class="contact__subtitle"><a onmouseenter="emailEnter()" onmouseleave="emailLeave()" href="mailto:Info@CasparLandman.nl" class="contact_link" id="emai__link">Info@CasparLandman.nl</a></span>
 							</div>
 						</div>
+						<!-- LinkedIn redirect -->
 						<div class="contact__information">
 							<a onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" href="https://www.linkedin.com/in/casparlandman/" target="_blank"><i onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" class="uil uil-linkedin contact__icon" id="linkedin__icon"></i></a>
 							<div>
@@ -117,6 +123,7 @@
 								<span class="contact__subtitle"><a onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" href="https://www.linkedin.com/in/casparlandman/" target="_blank" class="contact_link" id="linkedin__link">Caspar Landman</a></span>
 							</div>
 						</div>
+						<!-- Github redirect -->
 						<div class="contact__information">
 							<a onmouseenter="githubEnter()" onmouseleave="githubLeave()" href="https://github.com/Casparml" target="_blank"><i onmouseenter="githubEnter()" onmouseleave="githubLeave()" class="uil uil-github contact__icon" id="github__icon"></i></a>
 							<div>
@@ -124,7 +131,7 @@
 								<span class="contact__subtitle"><a onmouseenter="githubEnter()" onmouseleave="githubLeave()" href="https://github.com/Casparml" target="_blank" class="contact_link" id="github__link">@Casparml</a></span>
 							</div>
 						</div>
-					
+						<!-- YouTube redirect -->
 						<div class="contact__information">
 							<a onmouseenter="youtubeEnter()" onmouseleave="youtubeLeave()" href="https://youtube.com/@Caspuhh" target="_blank"><i class="uil uil-youtube contact__icon" id="youtube__icon"></i></a>
 							<div>
@@ -136,11 +143,14 @@
 				</div>
 			</section>
 		</main>
+		
 		<footer class="footer">
 			<div class="footer__bg">
+				<!--Copyright year updates automatically -->
 				<p class="footer__copy">&copy;<script>document.write(new Date().getFullYear())</script> - Developed with <i class="uil uil-heart"></i> by Caspar Landman<br>This content is not affiliated with, endorsed, sponsored, or specifically approved by Hypixel and Hypixel is not responsible for it.</p>
 			</div>
 		</footer>
+		<!-- Scrollup button -->
 		<a href="#" class="scrollup" id="scroll-up">
 			<i class="uil uil-arrow-up scrollup__icon"></i>
 		</a>
