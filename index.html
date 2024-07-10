@@ -3,7 +3,7 @@
 	<head>
 		<!-- High Priority Global Metadata -->
 		<meta charset="UTF-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#7070D4">
 		<meta name="google" content="notranslate">
 		<meta http-equiv="Content-Language" content="en_US">
@@ -22,11 +22,11 @@
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
 		<!-- Low Priority Global Metadata -->
-		<meta content="Caspar Landman" name="author">
+		<meta name="author" content="Caspar Landman">
 		<meta name="keywords" content="guess the build, gtb, theme, solver, hypixel, guess the build cheat, guess the build list, list, cheat, words, word">
 		<!-- Page Metadata -->
 		<link rel="canonical" href="https://www.gtbsolver.com/">
-		<link href="https://www.gtbsolver.com/manifest.json" rel="manifest">
+		<link rel="manifest" href="https://www.gtbsolver.com/manifest.json">
 		<meta name="description" content="Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.">
 		<!-- OpenGraph Tags -->
 		<meta property="og:title" content="Guess The Build Solver">
@@ -34,15 +34,15 @@
 		<meta property="og:url" content="https://www.gtbsolver.com/">
 		<meta property="og:locale" content="en">
 		<meta property="og:description" content="Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.">
-		<meta property="og:site_name" content="GTBSolver">
+		<meta property="og:site_name" content="Made by Caspar Landman:">
 		<meta property="og:image" content="https://www.gtbsolver.com/assets/img/gtbsolver.jpg">
 		<meta property="og:image:alt" content="GTBSolver - Helps you solve the puzzle.">
 		<!-- Twitter Tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="by Caspar Landman">
+		<meta name="twitter:title" content="Made by Caspar Landman:">
 		<meta name="twitter:description" content="Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.">
 		<meta name="twitter:image" content="https://www.gtbsolver.com/assets/img/gtbsolver.jpg">
-		<meta pname="twitter:image:alt" content="GTBSolver - Helps you solve the puzzle.">
+		<meta name="twitter:image:alt" content="GTBSolver - Helps you solve the puzzle.">
 		<!-- Icons Links -->
 		<link rel="shortcut icon" href="https://www.gtbsolver.com/assets/img/logo.png">
 		<link rel="icon" type="image/png" sizes="x" href="https://www.gtbsolver.com/assets/img/logo.png">
@@ -55,11 +55,11 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDMZ62VBZK"></script>
 		<script>
-  		  window.dataLayer = window.dataLayer || [];
-  		  function gtag(){dataLayer.push(arguments);}
-  		  gtag('js', new Date());
-
-  		  gtag('config', 'G-NDMZ62VBZK');
+		 // Goofle analytics script
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  		 	gtag('js', new Date());
+  			gtag('config', 'G-NDMZ62VBZK');
 		</script>
 	</head>
 	<body>		
@@ -69,26 +69,30 @@
 				<div class="nav__menu" id="nav-menu">
 					<ul class="nav__list nav__grid">
 						<li class="nav__item">
+							<!-- Home page -->
 							<a href=https://www.gtbsolver.com class="nav__link active-link">
 								<i class="uil uil-estate nav__icon"></i> Home
 							</a>
 						</li>
 						<li class="nav__item">
+							<!-- Submit words page -->
 							<a href="https://www.gtbsolver.com/submit-words" class="nav__link">
 								<i class="uil uil-envelope-upload nav__icon"></i> Submit Words
 							</a>
 						</li>
 						<li class="nav__item">
+							<!-- Contact page -->
 							<a href="https://www.gtbsolver.com/contact" class="nav__link">
 								<i class="uil uil-message nav__icon"></i> Contact
 							</a>
 						</li>
 					</ul>
+					<!-- Mobile nav close button -->
 					<i class="uil uil-times nav__close" id="nav-close"></i>
 				</div>
 				<div class="nav__btns">
 					<i class="uil uil-moon change-theme" id="theme-button"></i>
-
+					<!-- Dark / Light mode button -->
 					<div class="nav__toggle" id="nav-toggle">
 						<i class="uil uil-apps"></i>
 					</div>
@@ -125,6 +129,7 @@
 								<input id="input" name="theme" placeholder="Enter the hints here" type="text">
 							</form>
 							<br>
+							<!-- Words will be listed below -->
 							<div id="result"></div>
 						</div>
 					</div>
@@ -133,9 +138,11 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__bg">
+				<!--Copyright year updates automatically -->
 				<p class="footer__copy">&copy;<script>document.write(new Date().getFullYear())</script> - Developed with <i class="uil uil-heart"></i> by Caspar Landman<br>This content is not affiliated with, endorsed, sponsored, or specifically approved by Hypixel and Hypixel is not responsible for it.</p>
 			</div>
 		</footer>
+		<!-- Scrollup button -->
 		<a href="#" class="scrollup" id="scroll-up">
 			<i class="uil uil-arrow-up scrollup__icon"></i>
 		</a>
