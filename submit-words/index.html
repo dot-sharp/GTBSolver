@@ -111,18 +111,20 @@
 					<form action="https://formspree.io/f/xbjenqde" method="POST" class="submit__form grid">
 						<div class="submit__inputs grid">
 							<div class="submit__content list__item__top">
-								<label for="" class="submit__label">Name</label>
-								<input type="textarea" class="submit__input">
+								<label for="fullName" class="submit__label">Name</label>
+								<input id="fullName" name="fullName" type="textarea" class="submit__input">
 							</div>
 						</div>
 						<div class="submit__content list__item__bottom">
-							<label for="" class="submit__label">Message</label>
-							<textarea name="" id="" cols="0" rows="7" class="submit__input submit__text"></textarea>
+							<label for="messageText" class="submit__label">Message</label>
+							<textarea name="messageText" id="messageText" cols="0" rows="7" class="submit__input submit__text"></textarea>
 						</div>
 
 						<div>
 							<a href="#" class="button button--flex">
-								Send Message <i class="uil uil-message button__icon"></i>
+								<label for="submit__button">Send Message </label>
+								<i class="uil uil-message button__icon"></i>
+								<input type="submit" value="submit" id="submit__button" name="submit__button">
 							</a>
 						</div>
 					</form>

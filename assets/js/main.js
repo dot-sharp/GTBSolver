@@ -192,23 +192,3 @@ function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
 	document.getElementById("youtube__link").style.setProperty('color', '#75798a');
 };
-
-
-// Dynamic Favicon (for future update)
-/*
-$(window).focus(function() {
-	var link = document.createElement('link');
-	   link.type = 'image/x-icon';
-	link.rel = 'shortcut icon';
-	link.href = 'https://www.gtbsolver.com/assets/img/favicon1.ico';
-	document.getElementsByTagName('head')[0].appendChild(link);
-});
-
-$(window).blur(function() {
-	var link = document.createElement('link');
-	link.type = 'image/x-icon';
-	link.rel = 'shortcut icon';
-	link.href = 'https://www.gtbsolver.com/assets/img/favicon2.ico';
-	document.getElementsByTagName('head')[0].appendChild(link);
-});
-*/
