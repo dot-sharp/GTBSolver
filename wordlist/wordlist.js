@@ -1,4 +1,4 @@
-// words updated Jul 6, 2023
+// words updated Aug 28, 2024
 var wordsData = [
 	"Abandoned Mansion",
 	"Abonded Mansion",
@@ -504,6 +504,7 @@ var wordsData = [
 	"Donut",
 	"Door",
 	"Doorknob",
+	"Door Knob",
 	"Dragon",
 	"Dragon Egg",
 	"Dragonfly",
@@ -919,6 +920,7 @@ var wordsData = [
 	"Knife",
 	"Knight",
 	"Knitting",
+	"Knob",
 	"Koala",
 	"Label",
 	"Laboratory",
