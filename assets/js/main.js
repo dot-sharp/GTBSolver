@@ -153,7 +153,7 @@ if(input) {
 // Email
 function emailEnter() {
 	document.getElementById("email__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("emai__link").style.setProperty('color', '#f1f2f3');
+	document.getElementById("emai__link").style.setProperty('color', '#8fa2ff');
 };
 function emailLeave() {
 	document.getElementById("email__icon").style.setProperty('color', '#576ee0');
@@ -164,7 +164,7 @@ function emailLeave() {
 // LinkedIn
 function linkedinEnter() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("linkedin__link").style.setProperty('color', '#f1f2f3');
+	document.getElementById("linkedin__link").style.setProperty('color', '#8fa2ff');
 };
 function linkedinLeave() {
 	document.getElementById("linkedin__icon").style.setProperty('color', '#576ee0');
@@ -175,7 +175,7 @@ function linkedinLeave() {
 // Github
 function githubEnter() {
 	document.getElementById("github__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("github__link").style.setProperty('color', '#f1f2f3');
+	document.getElementById("github__link").style.setProperty('color', '#8fa2ff');
 };
 function githubLeave() {
 	document.getElementById("github__icon").style.setProperty('color', '#576ee0');
@@ -186,7 +186,7 @@ function githubLeave() {
 // YouTube
 function youtubeEnter() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#8fa2ff');
-	document.getElementById("youtube__link").style.setProperty('color', '#f1f2f3');
+	document.getElementById("youtube__link").style.setProperty('color', '#8fa2ff');
 };
 function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
