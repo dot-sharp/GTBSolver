@@ -607,6 +607,10 @@ img{
 	color: #FFF;
 }
 
+a .footer__copy{
+	color: #FBFBFB;
+}
+
 /*========== SCROLL UP ==========*/
 .scrollup{
 	position: fixed;
