@@ -198,7 +198,7 @@ function youtubeLeave() {
 window.onload = function () {
 	const favicon = document.getElementById('favicon')
 	const pageTitle = document.title
-	const attentionMessage = 'Come back'
+	const attentionMessage = 'GTB Solver'
   
 	document.addEventListener('visibilitychange', function (e) {
 	  const isPageActive = !document.hidden
@@ -211,7 +211,7 @@ window.onload = function () {
 		favicon.href = 'https://www.gtbsolver.com/assets/img/logo.png'
 	  } else {
 		document.title = attentionMessage
-		favicon.href = 'https://www.gtbsolver.com/assets/img/logo-dark.png'
+		favicon.href = 'https://www.gtbsolver.com/assets/img/logo-away.png'
 	  }
 	}
   }
