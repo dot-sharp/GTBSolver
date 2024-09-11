@@ -192,3 +192,26 @@ function youtubeLeave() {
 	document.getElementById("youtube__icon").style.setProperty('color', '#576ee0');
 	document.getElementById("youtube__link").style.setProperty('color', '#75798a');
 };
+
+
+// Dynamic favicon and title
+window.onload = function () {
+	const favicon = document.getElementById('favicon')
+	const pageTitle = document.title
+	const attentionMessage = 'Come back'
+  
+	document.addEventListener('visibilitychange', function (e) {
+	  const isPageActive = !document.hidden
+	  toggle(isPageActive)
+	})
+  
+	function toggle(isPageActive) {
+	  if (isPageActive) {
+		document.title = pageTitle
+		favicon.href = './img/logo.png'
+	  } else {
+		document.title = attentionMessage
+		favicon.href = './img/logo-dark.png'
+	  }
+	}
+  }
