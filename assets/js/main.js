@@ -208,10 +208,10 @@ window.onload = function () {
 	function toggle(isPageActive) {
 	  if (isPageActive) {
 		document.title = pageTitle
-		favicon.href = './img/logo.png'
+		favicon.href = './assets/img/logo.png'
 	  } else {
 		document.title = attentionMessage
-		favicon.href = './img/logo-dark.png'
+		favicon.href = './assets/img/logo-dark.png'
 	  }
 	}
   }
