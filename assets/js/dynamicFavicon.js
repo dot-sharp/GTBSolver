@@ -9,9 +9,9 @@ window.onload = function () {
   
 	function toggle(isPageActive) {
 	  if (isPageActive) {
-		favicon.href = './assets/images/logo.png'
+		favicon.href = '../assets/images/logo.png'
 	  } else {
-		favicon.href = './assets/images/logo-away.png'
+		favicon.href = '../assets/images/logo-away.png'
 	  }
 	}
 }
