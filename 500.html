@@ -17,20 +17,22 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono">
 		<!-- Style Links -->
-		<link rel="stylesheet" href="https://www.gtbsolver.com/font/stylesheet.css" media="screen">
-		<link rel="stylesheet" href="https://www.gtbsolver.com/assets/css/styles.css">
+		<link rel="stylesheet" href="assets/fonts/stylesheet.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<!-- Unicons -->
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+		<script src="https://unicons.iconscout.com/release/v4.0.8/script/monochrome/bundle.js"></script>
 		<!-- Low Priority Global Metadata -->
 		<meta name="author" content="Caspar Landman">
 		<meta name="keywords" content="guess the build, gtb, theme, solver, hypixel, guess the build cheat, guess the build list, list, cheat, words, word">
 		<!-- Page Metadata -->
 		<link rel="canonical" href="https://www.gtbsolver.com/500">
-		<link rel="manifest" href="https://www.gtbsolver.com/manifest.json">
+		<link rel="manifest" href="manifest.json">
 		<meta name="description" content="Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.">
 		<!-- OpenGraph Tags -->
-		<meta property="og:title" content="GTB Solver">
+		<meta property="og:title" content="GTB Solver - Error 500">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://www.gtbsolver.com/500">
 		<meta property="og:locale" content="en">
@@ -40,26 +42,24 @@
 		<meta property="og:image:alt" content="GTB Solver - Helps you solve the puzzle.">
 		<!-- Twitter Tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="GTB Solver">
+		<meta name="twitter:title" content="GTB Solver - Error 500">
 		<meta name="twitter:description" content="Guess The Build Solver is a word list tool for the Hypixel Minecraft server that allows the user to input hints and a list of all the possible words will appear.">
 		<meta name="twitter:image" content="https://www.gtbsolver.com/assets/img/gtbsolver.jpg">
 		<meta name="twitter:image:alt" content="GTB Solver - Helps you solve the puzzle.">
 		<!-- Icons Links -->
-		<link rel="shortcut icon" href="https://www.gtbsolver.com/assets/img/logo.png">
-		<link rel="icon" type="image/png" sizes="x" href="https://www.gtbsolver.com/assets/img/logo.png">
-		<link rel="apple-touch-icon" sizes="x" href="https://www.gtbsolver.com/assets/img/logo.png">
-		<link rel="shortcut icon" type="image/x-icon" href="https://www.gtbsolver.com/assets/img/favicon1.ico">
-		<!-- Script Links -->
-		<script src="https://unicons.iconscout.com/release/v4.0.8/script/monochrome/bundle.js"></script>		
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script src="https://www.gtbsolver.com/wordlist/wordlist.js"></script>
+		<link id='favicon' rel="shortcut icon" type="image/x-png" href="assets/images/logo.png">
+		<!-- Dynamic Title and Favicon -->
+		<script defer src="assets/js/dynamicTitle.js"></script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDMZ62VBZK"></script>
 		<script>
-		 // Goofle analytics script
+		// Goofle analytics script
   			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
+  			function gtag() {
+				dataLayer.push(arguments);
+			}
   			gtag('js', new Date());
+
   			gtag('config', 'G-NDMZ62VBZK');
 		</script>
 	</head>
@@ -67,24 +67,24 @@
 		<header class="header" id="header">
 			<nav class="nav container">
 				<!-- Redirect back to the home page -->
-				<a href=https://www.gtbsolver.com class="nav__logo">GTBSolver</a>
+				<a href="/" class="nav__logo">GTBSolver</a>
 				<div class="nav__menu" id="nav-menu">
 					<ul class="nav__list nav__grid">
 						<li class="nav__item">
 							<!-- Home page -->
-							<a href="https://www.gtbsolver.com" class="nav__link active-link">
+							<a href="/" class="nav__link active-link">
 								<i class="uil uil-estate nav__icon"></i> Home
 							</a>
 						</li>
 						<li class="nav__item">
 							<!-- Submit words page -->
-							<a href="https://www.gtbsolver.com/submit-words" class="nav__link">
+							<a href="submit-words/" class="nav__link">
 								<i class="uil uil-envelope-upload nav__icon"></i> Submit Words
 							</a>
 						</li>
 						<li class="nav__item">
 							<!-- Contact page -->
-							<a href="https://www.gtbsolver.com/contact" class="nav__link">
+							<a href="contact/" class="nav__link">
 								<i class="uil uil-message nav__icon"></i> Contact
 							</a>
 						</li>
@@ -109,7 +109,7 @@
 							<h1 class="error404__title">500</h1>
 							<p class="error404__description">Something went wrong. Try again later!</p>
 							<!-- Redirect back to the home page -->
-							<a href="https://www.gtbsolver.com" class="button button--flex">
+							<a href="/" class="button button--flex">
 								Go to Home Page <i class="uil uil-estate button__icon"></i>
 							</a>
 						</div>
@@ -127,8 +127,9 @@
 		<a href="#" class="scrollup" id="scroll-up">
 			<i class="uil uil-arrow-up scrollup__icon"></i>
 		</a>
-		<!-- Don't mind these -->
-		<script src="https://www.gtbsolver.com/assets/js/swiper-bundle.min.js"></script>
-		<script src="https://www.gtbsolver.com/assets/js/main.js"></script>
+		<!--JavaScript at end of body for optimized loading-->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="assets/js/swiper-bundle.min.js"></script>
+		<script src="assets/js/app.js"></script>
 	</body>
 </html>
