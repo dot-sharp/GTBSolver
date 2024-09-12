@@ -9,9 +9,9 @@
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "assets/img/favicon1.ico",
-			"sizes": "32x32",
-			"type": "image/x-icon"
+			"src": "assets/images/logo.png",
+			"sizes": "64x64",
+			"type": "image/x-png"
 		}
 	],
 	"lang": "en",
