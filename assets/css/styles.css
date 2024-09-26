@@ -90,7 +90,7 @@ body.dark-theme{
 .nav__btns{
 	display: flex;
 	align-items: center;
-	margin: 0 2 rem;
+	margin: 0 2rem;
 }
 
 .change-theme{
