@@ -527,10 +527,10 @@ img {
 
 .submit__form {
 	display: flex;
+	flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     flex: 0 0 100%;
-    width: 100%;
 }
 
 .submit__content {
