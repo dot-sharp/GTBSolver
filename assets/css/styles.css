@@ -92,6 +92,10 @@ body.dark-theme {
 	align-items: center;
 }
 
+.nav__btns i {
+	margin-left: 2rem;
+}
+
 .change-theme {
 	font-size: 1.25rem;
 	color: var(--title-color);
