@@ -424,6 +424,14 @@ img{
 }
 
 /*==================== CONTACT ME ====================*/
+.contact__section {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-bottom:4rem;
+}
+
+
 .contact__container{
 	row-gap: 3rem;
 }
