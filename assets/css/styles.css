@@ -599,7 +599,7 @@ img {
 
 .footer__bg {
 	background-color: var(--first-color-second);
-	padding: 4% 0 8%;
+	padding: 1rem 0 4rem;
 }
 
 .footer__title {
@@ -848,7 +848,7 @@ img {
 	}
 
 	.footer__bg {
-		padding: 2.75% 0;
+		padding: 2rem 0;
 	}
 
 	.footer__links {
