@@ -63,36 +63,35 @@
   			gtag('config', 'G-NDMZ62VBZK');
 		</script>
 	</head>
-
 	<body>
 		<header class="header" id="header">
 			<nav class="nav container">
 				<a href="/" class="nav__logo">GTBSolver</a>
-
 				<div class="nav__menu" id="nav-menu">
 					<ul class="nav__list nav__grid">
+						<!-- Home page -->
 						<li class="nav__item">
 							<a href="/" class="nav__link">
 								<i class="uil uil-estate nav__icon"></i> Home
 							</a>
 						</li>
-
+						<!-- Submit words page -->
 						<li class="nav__item">
 							<a href="/submit-words/" class="nav__link active-link">
 								<i class="uil uil-envelope-upload nav__icon"></i> Submit Words
 							</a>
 						</li>
-
+						<!-- Contact page -->
 						<li class="nav__item">
 							<a href="/contact/" class="nav__link">
 								<i class="uil uil-message nav__icon"></i> Contact
 							</a>
 						</li>
 					</ul>
-
+					<!-- Mobile nav close button -->
 					<i class="uil uil-times nav__close" id="nav-close"></i>
 				</div>
-
+				<!-- Dark / Light mode button -->
 				<div class="nav__btns">
 					<i class="uil uil-moon change-theme" id="theme-button"></i>
 
@@ -102,7 +101,6 @@
 				</div>
 			</nav>
 		</header>
-
 		<main class="main">
 			<section class="contact section" id="submit">
 				<h2 class="section__title">Submit Words</h2>
@@ -110,22 +108,14 @@
 
 				<div class="submit__container submit_container grid">
 					<form action="https://formspree.io/f/xqkvkany" method="POST" class="submit__form grid">
-						<div class="submit__inputs grid">
-							<div class="submit__content list__item__top">
-								<label for="input__name" class="submit__label">Name
-									<input id="input__name" name="Name" type="text" class="submit__input" required>
-								</label>
-							</div>
-						</div>
-
+						<!-- Form message input -->
 						<div class="submit__content list__item__bottom">
 							<label for="input__message" class="submit__label">Message
 								<textarea id="input__message" name="Message" cols="0" rows="7" class="submit__input submit__text" required></textarea>
 							</label>
-							
 						</div>
-
-						<div>
+						<!-- Submit form button -->
+						<div class="submit__button">
 							<button type="submit" name="Submit" class="button button--flex">
 								Send Message <i class="uil uil-message button__icon"></i>
 							</button>
@@ -134,13 +124,13 @@
                 </div>
 			</section>
 		</main>
-
 		<footer class="footer">
 			<div class="footer__bg">
-				<p class="footer__copy">&copy;<script>document.write(new Date().getFullYear())</script> - Developed with ❤️ by <a class="footer__link" target="_blank" href="https://github.com/casparml">Caspar Landman</a><br>This content is not affiliated with, endorsed, sponsored, or specifically approved by Hypixel and Hypixel is not responsible for it.</p>
+				<!-- Copyright year updates automatically -->
+				<p class="footer__copy">&copy;<script>document.write(new Date().getFullYear())</script> - Developed with ❤️ by <a class="footer__link" target="_blank" href="https://github.com/casparml">Caspar Landman</a> and <a class="footer__link" target="_blank" href="https://github.com/dot-sharp/">dotSharp</a><br>This content is not affiliated with, endorsed, sponsored, or specifically approved by Hypixel and Hypixel is not responsible for it.</p>
 			</div>
 		</footer>
-
+		<!-- Scrollup button -->
 		<a href="#" class="scrollup" id="scroll-up">
 			<i class="uil uil-arrow-up scrollup__icon"></i>
 		</a>
