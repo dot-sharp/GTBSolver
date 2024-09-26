@@ -495,10 +495,10 @@ img {
     flex-wrap: wrap;
 }
 
-.submit__section {
+/* .submit__section {
 	display: flex;
     flex-direction: column;
-}
+} */
 
 .submit__container {
 	row-gap: 3rem;
