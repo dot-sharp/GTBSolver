@@ -488,6 +488,18 @@ img {
 }	
 
 /*==================== SUBMIT WORDS ====================*/
+.submit__main {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.submit__section {
+	display: flex;
+    flex-direction: column;
+}
+
 .submit__container {
 	row-gap: 3rem;
 }
@@ -511,6 +523,14 @@ img {
 .submit__subtitle {
 	font-size: var(--small-font-size);
 	color: var(--text-color-light);
+}
+
+.submit__form {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 100%;
+    width: 100%;
 }
 
 .submit__content {
