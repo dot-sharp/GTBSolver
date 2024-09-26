@@ -90,7 +90,6 @@ body.dark-theme {
 .nav__btns {
 	display: flex;
 	align-items: center;
-	margin: 0 2rem;
 }
 
 .change-theme {
@@ -599,7 +598,7 @@ img {
 
 .footer__bg {
 	background-color: var(--first-color-second);
-	padding: 2.75rem 0 6rem;
+	padding: 2.5rem 0 5.5rem;
 }
 
 .footer__title {
