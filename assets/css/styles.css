@@ -93,7 +93,7 @@ body.dark-theme {
 }
 
 .nav__btns i {
-	margin-left: 2rem;
+	margin-left: 0;
 }
 
 .change-theme {
@@ -705,10 +705,6 @@ img {
 		column-gap: 0;
 	}
 
-	.nav__btns i {
-		margin-left: 0;
-	}
-
 	.error404__content,
 	.home__content {
 		grid-template-columns: .25fr 3fr;
@@ -739,10 +735,6 @@ img {
 	.error404__data,
 	.home__data {
 		grid-column: initial;
-	}
-
-	.nav__btns i {
-		margin-left: 0;
 	}
 
 	.home__img {
@@ -803,7 +795,7 @@ img {
 	}
 
 	.nav__btns i {
-		margin-left: 0;
+		margin-left: 2rem;
 	}
 
 	.nav__list {
