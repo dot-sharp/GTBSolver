@@ -54,8 +54,6 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-window.addEventListener('scroll', scrollActive);
-
 function scrollHeader() {
     const nav = document.getElementById('header');
     if (this.scrollY >= 80) {
