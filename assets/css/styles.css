@@ -19,7 +19,7 @@
 	--text-color-light: hsl(var(--hue-color), 8%, 50%);
 	--input-color: hsl(var(--hue-color), 70%, 96%);
 	--body-color: hsl(var(--hue-color), 60%, 99%);
-	--container-color: #FFF;
+	--container-color: #FAFAFA;
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 	--footer-text: hsl(var(--hue-color), 8%, 85%);
@@ -271,11 +271,11 @@ img {
 	bottom: .5rem;
 	font-size: 1.5rem;
 	cursor: pointer;
-	color: var(--first-color);
+	color: var(--title-color);
 }
 
 .nav__close:hover {
-	color: var(--first-color-alt);
+	color: var(--first-color);
 }
 
 /* show menu */
