@@ -741,6 +741,10 @@ img {
 		grid-column: initial;
 	}
 
+	.nav__btns i {
+		margin-left: 0;
+	}
+
 	.home__img {
 		order: 1;
 		justify-self: center;
