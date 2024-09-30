@@ -1881,12 +1881,12 @@ var wordsData = [
 ];
 
 // Regex Search
-$(document).ready(function () {
+jQuery(document).ready(function () {
 	
 	var wordsArray = wordsData;
 	
-	$("[name='theme']").keyup(function () {
-		var words = $(this).val().replace(/_/g, '.');
+	jQuery("[name='theme']").keyup(function () {
+		var words = jQuery(this).val().replace(/_/g, '.');
 		
 		console.log(words);
 
@@ -1894,7 +1894,7 @@ $(document).ready(function () {
 			var searchWord = words.toLowerCase()
 			var regex = new RegExp(searchWord);
 
-			$("#result").html('');
+			jQuery("#result").html('');
 
 			for (var index = 0; index < wordsArray.length; index++) {
 				var value = wordsArray[index];
@@ -1918,15 +1918,15 @@ $(document).ready(function () {
 					};
 					
 					if (i == searchWord.length) {
-						$("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="#form">' + value + '</a>' + '<br>');
+						jQuery("#result").append('<p title="Click to copy to clipboard">' + '<a class="a_word" href="#form">' + value + '</a>' + '<br>');
 
 						
-						$("#result a").on("click", function() {
-							var $copyWord = $("<input>");
-							$("body").append($copyWord);
-							$copyWord.val($(this).text()).select();
+						jQuery("#result a").on("click", function() {
+							var copyWord = jQuery("<input>");
+							jQuery("body").append(copyWord);
+							copyWord.val(jQuery(this).text()).select();
 							document.execCommand('copy');
-							$copyWord.remove();
+							copyWord.remove();
 						});	
 					};
 
