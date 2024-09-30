@@ -705,6 +705,10 @@ img {
 		column-gap: 0;
 	}
 
+	.nav__btns {
+		margin-left: 0;
+	}
+
 	.error404__content,
 	.home__content {
 		grid-template-columns: .25fr 3fr;
