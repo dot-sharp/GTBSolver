@@ -54,12 +54,12 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-const sections = document.querySelectorAll('section[id]');
+const sectionId = document.querySelectorAll('section[id]');
 
 function scrollActive() {
-    const scrollY = window.pageYOffset;
+    const scrollY = window.scrollY;
 
-    sections.forEach(current => {
+    sectionId.forEach(current => {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id');
