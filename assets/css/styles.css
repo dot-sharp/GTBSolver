@@ -802,6 +802,10 @@ img {
 		display: none;
 	}
 
+	.nav__btns i {
+		margin-left: 0;
+	}
+
 	.nav__list {
 		display: flex;
 		column-gap: 2rem;
