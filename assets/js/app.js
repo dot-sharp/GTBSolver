@@ -1,4 +1,34 @@
-// Mobile nav
+// Window Height fix //
+function resetHeight(){
+    // reset the body height to that of the inner browser
+    document.body.style.height = window.innerHeight + "px";
+}
+// reset the height whenever the window's resized
+window.addEventListener("resize", resetHeight);
+// called to initially set the height.
+resetHeight();
+
+
+// Dynamic favicon //
+window.onload = function () {
+	const favicon = document.getElementById('favicon')
+  
+	document.addEventListener('visibilitychange', function (e) {
+	  const isPageActive = !document.hidden
+	  toggle(isPageActive)
+	})
+  
+	function toggle(isPageActive) {
+	  if (isPageActive) {
+		favicon.href = '../assets/images/logo.png'
+	  } else {
+		favicon.href = '../assets/images/logo-away.png'
+	  }
+	}
+}
+
+
+// Mobile nav //
 const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
