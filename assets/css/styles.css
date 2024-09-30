@@ -22,7 +22,6 @@
 	--container-color: #FFF;
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-	--scrollup-color: hsl(var(--hue-color), 69%, 61%);
 	--footer-text: hsl(var(--hue-color), 8%, 85%);
 
 	/*========== Font and typography ==========*/
@@ -82,7 +81,6 @@ body.dark-theme {
 	--container-color: hsl(var(--hue-color), 29%, 16%);
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-	--scrollup-color: hsl(var(--hue-color), 30%, 8%);
 	--footer-text: hsl(var(--hue-color), 8%, 75%);
 }
 
@@ -639,33 +637,6 @@ img {
 .footer__link,
 .footer__social {
 	color: #FBFBFB;
-}
-
-/*========== SCROLL UP ==========*/
-.scrollup {
-	position: fixed;
-	right: 1rem;
-	bottom: -20%;
-	background-color: var(--scrollup-color);
-	opacity: .8;
-	padding: 0 .3rem;
-	border-radius: .4rem;
-	z-index: var(--z-tooltip);
-	transition: .4s;
-}
-
-.scrollup:hover {
-	background-color: var(--first-color-alt);
-}
-
-.scrollup__icon {
-	font-size: 1.5rem;
-	color: #FFF;
-}
-
-/* Show scroll */
-.show-scroll {
-	bottom: 5rem;
 }
 
 /*========== SCROLL BAR ==========*/
