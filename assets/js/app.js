@@ -76,8 +76,6 @@ function scrollUp() {
     };
 };
 
-window.addEventListener('scroll', scrollUp);
-
 // Dark and light mode
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
