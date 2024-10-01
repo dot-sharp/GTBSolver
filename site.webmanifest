@@ -12,6 +12,16 @@
 			"src": "assets/images/logo.png",
 			"sizes": "64x64",
 			"type": "image/x-png"
+		},
+		{
+			"src": "assets/images/logo.png",
+			"sizes": "144x144",
+			"type": "image/x-png"
+		},
+		{
+			"src": "assets/images/logo.png",
+			"sizes": "512x512",
+			"type": "image/x-png"
 		}
 	],
 	"lang": "en",
