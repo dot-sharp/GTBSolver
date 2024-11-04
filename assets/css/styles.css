@@ -695,7 +695,7 @@ button {
 	color: var(--first-color-lighter);
 }
 
-.footer__copy, .footer__policies {
+.footer__copy {
 	font-size: var(--smaller-font-size);
 	text-align: center;
 	color: var(--footer-text);
@@ -705,17 +705,6 @@ button {
 .footer__link,
 .footer__social {
 	color: var(--footer-white-color);
-}
-
-.footer__policy-two {
-	padding: 0 .35rem;
-}
-
-footer {
-	display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 }
 
 /*========== SCROLL BAR ==========*/
