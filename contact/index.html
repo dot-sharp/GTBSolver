@@ -100,52 +100,53 @@
 			</nav>
 		</header>
 		<main class="main contact__main">
-			<section class="section" id="contact">
+			<section class="section contact__section" id="contact">
 				<h2 class="section__title">Contact Me</h2>
 				<span class="section__subtitle">My socials and contact information is listed below</span> 
 				
 				<div class="contact__container container grid">
-					<div>
+					<div class="contact__buttons">
 						<!-- Mail redirect -->
-						<div class="contact__information">
-							<a onmouseenter="emailEnter()" onmouseleave="emailLeave()" href="mailto:Info@CasparLandman.nl"><i onmouseenter="emailEnter()" onmouseleave="emailLeave()" class="uil uil-envelope contact__icon" id="email__icon"></i></a>
-							<div>
-								<h3 class="contact__title">Email</h3>
-								<span class="contact__subtitle"><a onmouseenter="emailEnter()" onmouseleave="emailLeave()" href="mailto:Info@CasparLandman.nl" class="contact_link" id="emai__link">Info@CasparLandman.nl</a></span>
-							</div>
+						<div class="contact__information contact__email">
+							<button onclick="location.href='mailto:Info@CasparLandman.nl'" aria-label="Email"><i class="uil uil-envelope contact__icon"></i>
+								<div>
+									<h3 class="contact__title">Email</h3>
+									<span class="contact__subtitle contact_link">info@casparlandman.nl</span>
+								</div>
+							</button>
 						</div>
 						<!-- LinkedIn redirect -->
-						<div class="contact__information">
-							<a onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" href="https://www.linkedin.com/in/casparlandman/" target="_blank"><i onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" class="uil uil-linkedin contact__icon" id="linkedin__icon"></i></a>
-							<div>
-								<h3 class="contact__title">LinkedIn</h3>
-								<span class="contact__subtitle"><a onmouseenter="linkedinEnter()" onmouseleave="linkedinLeave()" href="https://www.linkedin.com/in/casparlandman/" target="_blank" class="contact_link" id="linkedin__link">Caspar Landman</a></span>
-							</div>
+						<div class="contact__information contact__linkedin">
+							<button onclick="window.open('https://linkedin.com/in/casparlandman/', '_blank')" aria-label="LinkedIn"><i class="uil uil-linkedin contact__icon"></i>
+								<div>
+									<h3 class="contact__title">LinkedIn</h3>
+									<span class="contact__subtitle contact_link">Caspar Landman</span>
+								</div>
+							</button>
 						</div>
 						<!-- Github redirect -->
-						<div class="contact__information">
-							<a onmouseenter="githubEnter()" onmouseleave="githubLeave()" href="https://github.com/Casparml" target="_blank"><i onmouseenter="githubEnter()" onmouseleave="githubLeave()" class="uil uil-github contact__icon" id="github__icon"></i></a>
-							<div>
-								<h3 class="contact__title">GitHub</h3>
-								<span class="contact__subtitle"><a onmouseenter="githubEnter()" onmouseleave="githubLeave()" href="https://github.com/Casparml" target="_blank" class="contact_link" id="github__link">@Casparml</a></span>
-							</div>
+						<div class="contact__information contact__github">
+							<button onclick="window.open('https://github.com/casparml', '_blank')" aria-label="GitHub"><i class="uil uil-github contact__icon"></i>
+								<div>
+									<h3 class="contact__title">GitHub</h3>
+									<span class="contact__subtitle contact_link">@Casparml</span>
+								</div>
+							</button>
 						</div>
 						<!-- YouTube redirect -->
-						<div class="contact__information">
-							<a onmouseenter="youtubeEnter()" onmouseleave="youtubeLeave()" href="https://youtube.com/@Casparml" target="_blank"><i class="uil uil-youtube contact__icon" id="youtube__icon"></i></a>
-							<div>
-								<h3 class="contact__title">YouTube</h3>
-								<span class="contact__subtitle"><a onmouseenter="youtubeEnter()" onmouseleave="youtubeLeave()" href="https://youtube.com/@Casparml" target="_blank" class="contact_link" id="youtube__link">@Casparml</a></span>
-							</div>
+						<div class="contact__information contact__youtube">
+							<button onclick="window.open('https://youtube.com/@casparml', '_blank')" aria-label="YouTube"><i class="uil uil-youtube contact__icon"></i>
+								<div>
+									<h3 class="contact__title">YouTube</h3>
+									<span class="contact__subtitle contact_link">@Casparml</span>
+								</div>
+							</button>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
-		<footer class="footer">
-			<div class="footer__bg">
-				<!-- Copyright year updates automatically -->
-				<p class="footer__copy">&copy;<script>document.write(new Date().getFullYear())</script> - Developed with ❤️ by <a class="footer__link" target="_blank" href="https://github.com/casparml">Caspar Landman</a> and <a class="footer__link" target="_blank" href="https://github.com/dot-sharp/">dotSharp</a></p>
-			</div>
+		<footer class="footer footer__bg">
+				<span class="footer__copy">&copy; <script>document.write(new Date().getFullYear())</script><noscript>2024</noscript> - Developed by <a class="footer__link" target="_blank" href="https://github.com/casparml">Caspar Landman</a></span>
 		</footer>
 </html>

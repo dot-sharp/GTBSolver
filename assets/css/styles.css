@@ -20,6 +20,7 @@
 	--input-color: hsl(var(--hue-color), 70%, 96%);
 	--body-color: hsl(var(--hue-color), 60%, 99%);
 	--container-color: #FAFAFA;
+	--footer-white-color: #FBFBFB;
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 	--footer-text: hsl(var(--hue-color), 8%, 85%);
@@ -150,6 +151,14 @@ img {
 	height: auto;
 }
 
+button {
+	background-color: transparent;
+	color: inherit;
+	border: none;
+	outline: inherit;
+	cursor: pointer;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
 	padding: 2rem 0 4rem;
@@ -162,7 +171,8 @@ img {
 .section__subtitle {
 	display: block;
 	font-size: var(--small-font-size);
-	margin-bottom: var(--mb-3);
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 .section__title,
@@ -433,24 +443,30 @@ img {
 	flex-wrap: wrap;
 }
 
+.contact__section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .contact__container {
 	row-gap: 3rem;
 }
 
 .contact__information {
-	display: flex;
 	margin-bottom: var(--mb-2);
 }
 
 .contact__icon {
-	font-size: 2rem;
+	font-size: 2.75rem;
 	color: var(--first-color);
-	margin-right: var(--mb-0-75);
 }
 
 .contact__title {
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
+	margin-bottom: .25rem;
 }
 
 .contact__subtitle {
@@ -480,13 +496,91 @@ img {
 	padding: .25rem .5rem .5rem 0;
 }
 
-.contact_link {
-	color: var(--text-color-light);
+.contact__buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.contact_link:hover {
-	color: var(--title-color);
-}	
+.contact__email:hover i {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__email:not(:hover) i {
+	color: var(--first-color);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__email:hover span {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__email:not(:hover) span {
+	color: var(--text-color-light);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__linkedin:hover i {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__linkedin:not(:hover) i {
+	color: var(--first-color);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__linkedin:hover span {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__linkedin:not(:hover) span {
+	color: var(--text-color-light);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__github:hover i {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__github:not(:hover) i {
+	color: var(--first-color);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__github:hover span {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__github:not(:hover) span {
+	color: var(--text-color-light);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__youtube:hover i {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__youtube:not(:hover) i {
+	color: var(--first-color);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__youtube:hover span {
+	color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.contact__youtube:not(:hover) span {
+	color: var(--text-color-light);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
 
 /*==================== SUBMIT WORDS ====================*/
 
@@ -614,8 +708,22 @@ img {
 	row-gap: 1.5rem;
 }
 
+.footer__link {
+	text-decoration-thickness: 1px;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+}
+
 .footer__link:hover {
 	color: var(--first-color-lighter);
+	text-decoration-color: var(--first-color-lighter);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.footer__link:not(:hover) {
+	color: var(--footer-white-color);
+	text-decoration-color: var(--footer-white-color);
+	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 .footer__social {
@@ -636,7 +744,7 @@ img {
 .footer__title,
 .footer__link,
 .footer__social {
-	color: #FBFBFB;
+	color: var(--footer-white-color);
 }
 
 /*========== SCROLL BAR ==========*/
@@ -741,7 +849,8 @@ img {
 	}
 
 	.section__subtitle {
-		margin-bottom: 4rem;
+		margin-bottom: .5rem;
+		margin-top: .5rem;
 	}
 
 	.header {
