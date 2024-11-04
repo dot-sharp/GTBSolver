@@ -802,6 +802,47 @@ button {
 	.padding-bottom__phone__home {
 		padding-bottom: 4.25rem;
 	}
+
+	.contact__icon {
+		font-size: 3.25rem;
+	}
+
+	h3.contact__title {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.contact__email:not(:hover) i {
+		color: var(--first-color-lighter);
+	}
+	
+	.contact__email:not(:hover) span {
+		color: var(--title-color);
+	}
+	
+	.contact__linkedin:not(:hover) i {
+		color: var(--first-color-lighter);
+	}
+	
+	.contact__linkedin:not(:hover) span {
+		color: var(--title-color);
+	}
+	
+	.contact__github:not(:hover) i {
+		color: var(--first-color-lighter);
+	}
+	
+	.contact__github:not(:hover) span {
+		color: var(--title-color);
+	}
+	
+	.contact__youtube:not(:hover) i {
+		color: var(--first-color-lighter);
+	}
+	
+	.contact__youtube:not(:hover) span {
+		color: var(--title-color);
+	}
 }
 	
 /* For medium devices */
