@@ -502,16 +502,6 @@ button {
 	align-items: center;
 }
 
-.contact__email:hover i {
-	color: var(--first-color-lighter);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__email:not(:hover) i {
-	color: var(--first-color);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
 .contact__email:hover span {
 	color: var(--first-color-lighter);
 	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -519,16 +509,6 @@ button {
 
 .contact__email:not(:hover) span {
 	color: var(--text-color-light);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__linkedin:hover i {
-	color: var(--first-color-lighter);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__linkedin:not(:hover) i {
-	color: var(--first-color);
 	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
@@ -542,16 +522,6 @@ button {
 	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
-.contact__github:hover i {
-	color: var(--first-color-lighter);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__github:not(:hover) i {
-	color: var(--first-color);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
 .contact__github:hover span {
 	color: var(--first-color-lighter);
 	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -559,16 +529,6 @@ button {
 
 .contact__github:not(:hover) span {
 	color: var(--text-color-light);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__youtube:hover i {
-	color: var(--first-color-lighter);
-	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
-}
-
-.contact__youtube:not(:hover) i {
-	color: var(--first-color);
 	transition: 550ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
@@ -812,32 +772,16 @@ button {
 		visibility: hidden;
 	}
 	
-	.contact__email:not(:hover) i {
-		color: var(--first-color-lighter);
-	}
-	
 	.contact__email:not(:hover) span {
 		color: var(--title-color);
-	}
-	
-	.contact__linkedin:not(:hover) i {
-		color: var(--first-color-lighter);
 	}
 	
 	.contact__linkedin:not(:hover) span {
 		color: var(--title-color);
 	}
 	
-	.contact__github:not(:hover) i {
-		color: var(--first-color-lighter);
-	}
-	
 	.contact__github:not(:hover) span {
 		color: var(--title-color);
-	}
-	
-	.contact__youtube:not(:hover) i {
-		color: var(--first-color-lighter);
 	}
 	
 	.contact__youtube:not(:hover) span {
