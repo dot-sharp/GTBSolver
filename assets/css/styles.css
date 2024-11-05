@@ -104,6 +104,12 @@ body.dark-theme {
 
 .change-theme:hover {
 	color: var(--first-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.change-theme:not(:hover) {
+	color: var(--title-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 /*==================== BASE ====================*/
@@ -228,6 +234,12 @@ button {
 
 .nav__logo:hover {
 	color: var(--first-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.nav__logo:not(:hover) {
+	color: var(--title-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 .nav__toggle {
@@ -269,6 +281,12 @@ button {
 
 .nav__link:hover {
 	color: var(--first-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.nav__link:not(:hover) {
+	color: var(--title-color);
+	transition: 450ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 .nav__icon {
@@ -294,7 +312,7 @@ button {
 }
 
 /* Active link */
-.active-link {
+.active-link:not(:hover) {
 	color: var(--first-color);
 }
 
