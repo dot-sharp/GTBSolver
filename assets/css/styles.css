@@ -251,20 +251,6 @@ button {
 	color: var(--first-color);
 }
 
-@media screen and (max-width:  767px) {
-	.nav__menu {
-		position: fixed;
-		bottom: -100%;
-		left: 0;
-		width: 100%;
-		background-color: var(--body-color);
-		padding: 2rem 1.5rem 4rem;
-		box-shadow: 0 -1px 4px rgba(0,0,0,.65);
-		border-radius: 1.5rem 1.5rem 0 0;
-		transition: .3s;
-	}
-}
-
 .nav__list {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
@@ -742,6 +728,7 @@ button {
 }
 
 /*==================== MEDIA QUERIES ====================*/
+
 /* For small devices */
 @media screen and (max-width: 350px) {
 	.container {
@@ -831,6 +818,21 @@ button {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media screen and (max-width:  767px) {
+	.nav__menu {
+		position: fixed;
+		bottom: -100%;
+		left: 0;
+		width: 100%;
+		background-color: var(--body-color);
+		padding: 2rem 1.5rem 4rem;
+		box-shadow: 0 -1px 4px rgba(0,0,0,.65);
+		border-radius: 1.5rem 1.5rem 0 0;
+		transition: .3s;
+	}
+}
+
 
 @media screen and (min-width: 768px) {
 	.container {
