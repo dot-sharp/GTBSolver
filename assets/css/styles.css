@@ -831,6 +831,10 @@ button {
 		border-radius: 1.5rem 1.5rem 0 0;
 		transition: .3s;
 	}
+
+	.show-menu {
+        bottom: 0;
+    }
 }
 
 
